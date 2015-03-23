@@ -79,6 +79,6 @@ p.s. `../dict.txt` 是預先準備的字典檔
 #### Example 2
 
 ```
-java -jar dictionaryAttack.jar ../dict.txt e443093be821472478d44add006c34a8 abc
+> java -jar dictionaryAttack.jar ../dict.txt e443093be821472478d44add006c34a8 abc
 Found it!!! It's 'roof'.
 ```
