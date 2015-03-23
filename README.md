@@ -38,30 +38,19 @@ Arguments: [Max Length] [MD5 Hash To Be Tested] ([Salt])
 
 #### Example 1
 
-Input
 ```
-java -jar bruteForceAttack.jar 3 47bce5c74f589f4867dbd57e9ca9f808
-```
-
-Output
-```
+> java -jar bruteForceAttack.jar 3 47bce5c74f589f4867dbd57e9ca9f808
 There are 242234 waiting to be tested.
 Found it!!! It's 'aaa'.
 ```
 
 #### Example 2
 
-Input
 ```
-java -jar bruteForceAttack.jar 3 57a8bdf56042b790fee5c0d54f33a746 123
-```
-
-Output
-```
+> java -jar bruteForceAttack.jar 3 57a8bdf56042b790fee5c0d54f33a746 123
 There are 242234 waiting to be tested.
 Found it!!! It's 'ccc'.
 ```
-
 
 ### Dictionary Attack
 
@@ -80,26 +69,16 @@ Arguments: [Dictionary File] [MD5 Hash To Be Tested] ([Salt])
 
 #### Example 1
 
-Input
 ```
-java -jar dictionaryAttack.jar ../dict.txt 2f7b22bac3f5542bb48fb08b04141ecb
+> java -jar dictionaryAttack.jar ../dict.txt 2f7b22bac3f5542bb48fb08b04141ecb
+Found it!!! It's 'rocks'.
 ```
 
 p.s. `../dict.txt` 是預先準備的字典檔
 
-Output
-```
-Found it!!! It's 'rocks'.
-```
-
 #### Example 2
 
-Input
 ```
 java -jar dictionaryAttack.jar ../dict.txt e443093be821472478d44add006c34a8 abc
-```
-
-Output
-```
 Found it!!! It's 'roof'.
 ```
